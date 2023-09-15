@@ -1,0 +1,272 @@
+header{
+    width: 100%;
+    height: 500px;
+}
+
+.logo{
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    width: 90%;
+    gap:190px;
+    margin: 0 auto;
+}
+.search-box{
+    display: flex;
+    width: 525px;
+    height: 36px;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    border: 2px solid #D1D5DB;
+    margin-top: 10px;
+}
+.search-box button{
+    background: transparent;
+}
+input{
+    width: 470px;
+    height: 28px ;
+    background: transparent;
+    outline: none;
+}
+input:focus{
+    outline: none;
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+input::placeholder{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #ffffff;
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+.sign-in p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: #ffffff
+}
+.sign-in button{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #BE123C;
+}
+.description{
+    width: 404px;
+    height: 285px;
+    padding: 12px;
+    margin-left: 65px;
+}
+.description h1{
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 10px;    
+}
+.ratings{
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ratings span{
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+span{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.desc-text{
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+width: 302px;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+margin-bottom: 10px;
+}
+.watch-trailer{
+    width: 169px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    background: #BE123C;
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+color: #ffffff;
+border-radius: 8px;
+}
+.top-movies{
+    width: 90%;
+    margin: auto;
+}
+.head-text{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 70px;
+    gap: 60%;
+    margin-bottom: 40px;
+}
+.head-text h3{
+    font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 47px;
+}
+.head-text a{
+text-decoration: none;
+font-family: DM Sans;
+font-size: 18px;
+display: flex;
+align-items: center;
+color: #BE123C;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 24px;
+    row-gap: 90px;
+    width: 90%;
+    margin: auto;
+}
+[data-testid="movie-card"]{
+    width: 250px;
+    height: 490px;
+    position: relative;
+}
+[data-testid="movie-poster"]{
+    width: 250px;
+    height: 370px;
+}
+.like-series{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 110px;
+    position: absolute;
+    top:0
+}
+.like-series p{
+    width: 74px;
+    height: 22px;
+    font-family: DM Sans;
+font-size: 12px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+border-radius: 10px;
+}
+.like-series button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F3F4F680;
+}
+.more-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    justify-content: center;
+}
+[data-testid= "movie-release-date"]{
+    font-family: DM Sans;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #9CA3AF;
+}
+.more-info h2{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+color: #111827;
+}
+.ratings2{
+    display: flex;
+    gap: 120px;
+}
+.ratings2 span{
+    font-family: DM Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+color: #9CA3AF;
+}
+.genre{
+    font-family: DM Sans;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+color: #9CA3AF;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+.social-media, .privacy{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.privacy a{
+    text-decoration: none;
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+color: #111827;
+}
+.copyright{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+color: #6B7280;
+}
