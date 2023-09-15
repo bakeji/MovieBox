@@ -22,8 +22,10 @@ export default function MoreDetails(){
             </div>
 
             <div className="flex-right">
+                <>
                 <button className="btn-1"><img src="/Two Tickets.png" alt="tickets" />See Showtimes</button>
                 <button className="btn-2"><img src="/Menu.png" alt="menu" />More watch options</button>
+                </>
                 <div className="shows-of-the-month">
                     <div className="poster">
                         <img src="/Rectangle 37.png" alt="" />

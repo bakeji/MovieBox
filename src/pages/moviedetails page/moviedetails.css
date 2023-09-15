@@ -1,8 +1,4 @@
-*{
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
+
 .movie-details{
     width: 100%;
     min-height: 100vh;
@@ -307,5 +303,85 @@ color:#333333;
 .shows-of-the-month span img{
     margin-left: 20px;
 }
+@media screen and (max-width:994px) {
+    
+.trailer{
+    width: 90%;
+    margin-top: 30px;
+}
+.video , .trailer-img{
+    width: 100%;
+}
+.ratings1{
+    display: none;
+}
+.cr,
+[data-testid="movie-runtime"],
+[data-testid="movie-title"],
+[ data-testid="movie-release-date"]{
+    font-size: 14px;
+}
+.genre{
+    display: none;
+}
+.more-details{
+    flex-direction: column;
+}
+ .awards{
+    display: none;
+}
 
+}
+
+@media screen and (max-width:600px) {
+.side-nav{display: none;}
+.flex-right button,
+ .shows-of-the-month
+ {
+    width: 320px;
+ }
+ .shows-of-the-month span{
+    width: 320px;
+    font-size: 12px;
+
+    
+}
+
+.trailer{
+    width: 100%;
+    margin-top: 0px;
+}
+.video, .trailer-img{
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.movie-info{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.cr{
+    display: none;
+}
+.details{
+    gap: 5px;
+}
+.flex-left{
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+
+}
+.flex-items{
+    width: 98%;
+    margin: auto;
+
+}
+.movie-details{
+    align-items: center;
+    flex-direction: column;
+}
+
+}
 

@@ -8,6 +8,7 @@ import { AppContext } from "./context/appContext";
 export default function App(){
 const [topRated, setTopRated]=useState([])
 const [isFetched, setIsFetched]=useState(false)
+const [error, setError] = useState("")
 
 const fetchApi = async () => {
     try {
@@ -29,7 +30,7 @@ const fetchApi = async () => {
       setTopRated(newMovieArray);
       setIsFetched(true);
     } catch (err) {
-    //   setError(err);
+     setError(err);
     }
   };
            
@@ -41,7 +42,7 @@ const fetchApi = async () => {
 
    return(
     <div className="App">
-        <AppContext.Provider value={{topRated, isFetched}}>
+        <AppContext.Provider value={{error, topRated, isFetched}}>
             <BrowserRouter> 
                 <Routes>
                     <Route path="/" element={<HomePage/>} />

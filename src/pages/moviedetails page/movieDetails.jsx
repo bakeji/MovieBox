@@ -41,7 +41,7 @@ const fetchMovieData = async () => {
         <div className="movie-details">
             <MovieContext.Provider value={{selectedMovie}}>
             <SideNav />
-            <div>
+            <div className="flex-items">
                 <Trailer  />
                 <MoreDetails  />
             </div>
